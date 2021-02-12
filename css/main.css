@@ -1,0 +1,375 @@
+*{
+		margin:5;
+		padding:0;
+ }
+	
+body{
+	margin:0;
+	padding:0;
+	font-family:'Titillium Web', sans-serif;
+	text-decoration:none;
+}
+.top-area{
+	background-color:#071061;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #DADADA;	
+}
+
+.header-logo {
+    display: inline-block;
+	margin-right: 15px;
+	margin-left: 10px;;
+	background-color: white;
+	box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.95);
+	border-radius: 50%;
+	width: 120px;
+
+	
+}
+
+.header-logo .logo > img {
+	max-width: 478px;
+	
+
+	/*max-height: 70px;*/
+}
+
+
+
+.logo-area{
+	margin: 15px 25px 15px 15px;
+    box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.95);
+    border-radius: 50%;
+    max-width: 110px;
+    width: 100%;
+   
+    clear: both;
+
+}
+
+.header-text{
+	width: 100%;
+    position: relative;
+	float: right;
+	margin-left: 10px;
+}
+
+.hg
+{
+	color:white;
+}
+.bg-light {
+
+	background: linear-gradient(to bottom, #15a0c7 0%, #0244ff 100%);
+}
+h1 a {
+
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    
+}
+.navbar-light .navbar-brand {
+
+    color:white;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover
+{
+	color: white !important;
+}
+
+*, ::after, ::before {
+
+    box-sizing: border-box;
+   
+
+}
+#menu ul{
+	
+	list-style:none;
+	font-family:'Ubuntu' !important;
+}
+#menu ul li
+{
+	background-color:rgba(0,84,35, .99);
+	border:1px solid yellow;
+	text-shadow: 2px 2px 4px #000000;
+	border-radius:16px;
+	cursor:pointer;
+	z-index: 100;
+	
+}
+#menu ul li  a 
+{   
+    color:white;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	font-size: 18px !important;
+	
+}
+#menu ul li a:hover
+{
+	background:  #1e8449 ;
+	border-radius:16px;
+}
+#menu ul ul
+{
+	position:absolute;
+	display:none;
+}
+#menu ul li:hover >ul
+{
+	display:block;
+}
+.slide
+{
+	margin-top:15px;
+	margin-left:0px;
+	margin-bottom:15px;
+	width:700px;
+	height:500px;
+}
+
+/* .breakingNews {
+    width: 100%;
+    height: 40px;
+    background: #FFF;
+    position: relative;
+    border: solid 2px rgba(5,33,21, .99);
+    overflow: hidden;
+}
+
+.breakingNews > .bn-title {
+    width: auto;
+    height: 40px;
+    display: inline-block;
+    background: rgba(5,33,21, .99);
+    position: relative;
+} */
+
+p a {
+	color: #071061;
+}
+
+.breakingNews {
+    width: 100%;
+    height: 40px;
+}
+
+.breakingNews .bn-title{
+	width: auto;
+    height: 40px;
+    display: inline-block;
+}
+
+.breakingNews .bn-title ul {
+	margin-left: -39px;
+
+}
+
+.sidebar{
+	padding: 10px;
+    background: #f6f6f6;
+}
+
+.sidebar-text h3{
+	border: 1px solid #aaa;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 7px;
+    min-height: 30px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    color: #111;
+    background: rgb(255,255,255);
+    -moz-box-shadow: 0px 0px 2px 1px #ccc;
+    -webkit-box-shadow: 0px 0px 2px 1px #ccc;
+    box-shadow: 0px 0px 2px 1px #ccc;
+}
+.principal-img {
+    border: 1px solid #333;
+    width: 70%;
+    margin: 15px auto;
+    display: block;
+}
+
+.sidebar a.more {
+    text-transform: capitalize;
+    color: #660300;
+}
+.more {
+    text-align: right;
+    margin-top: 5px;
+}
+.box h3 {
+    color: #333;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.box table {
+    border: 2px solid #071061;
+}
+
+table {
+    width: 100%;
+}
+
+.box table tr th {
+    border-right: 1px solid  #071061;
+    padding: 5px 10px;
+}
+
+.box table thead tr {
+    text-align: left;
+    background: linear-gradient(to bottom, #15a0c7 0%, #0244ff 100%);;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.box table tr {
+    border-bottom: 1px solid  #071061;
+}
+
+.box table tr td,.box table tr th {
+    border-right: 1px solid #071061;
+    padding: 5px 10px;
+}
+
+.box table tr td a {
+    color: #660300;
+    text-transform: capitalize;
+}
+
+.more a {
+    text-transform: capitalize;
+    color: #660300;
+}
+
+.platfrom_content {
+    padding-left: 13px;
+    padding-top: 11px;
+    margin-top: -6px;
+}
+
+.platfrom_title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+
+.right-panel .message-thumbnail {
+    border-radius: 3px 3px 0px 0px;
+    background-color: #ffffff;
+    color: gray;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+
+.box-title {
+    color: rgba(3, 31, 19, .99);
+    font-size: 122%;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.acps-panel-body {
+    padding: 8px 15px 0px 15px;
+} 
+.calendar-wrapper {
+    width: 360px;
+    margin: 0em auto;
+    
+}
+#btnPrev, #btnNext {
+    float: right;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+  
+    cursor: pointer;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+   
+    font-weight: bold;
+    
+}
+
+#btnPrev {
+    float: left;
+    margin-bottom: 20px;
+ 
+    font-family: FontAwesome;
+    padding-right: 4px;
+    
+}
+
+.section_title h1 {
+    display: block;
+    color: #1a1a1a;
+    font-weight: 500;
+    padding-top: 24px;
+}
+
+.event_items {
+    margin-top: 68px;
+}
+
+.event_item {
+    margin-bottom: 56px;
+}
+
+.event_date {
+    width: 131px;
+    height: 131px;
+    border: solid 2px #ffb606;
+    margin-bottom: 18px;
+}
+
+.event_day {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffb606;
+    margin-bottom: 1px;
+    line-height: 1;
+}
+
+.event_content p {
+    font-weight: 500;
+    color: #a5a5a5;
+    margin-top: 21px;
+    margin-bottom: 13px;
+}
+
+.teacher-info>div>p>span:first-child {
+    width: 30%;
+    font-weight: bold;
+    padding: 3px;
+    margin: 2px;
+    text-align: left;
+}
+
+.teacher-info>div>p>span:nth-child(2) {
+    padding: 3px;
+    margin: 2px;
+    padding-left: 5px;
+    text-align: left;
+}
